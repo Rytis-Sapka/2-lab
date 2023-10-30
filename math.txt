@@ -1,0 +1,27 @@
+x, y, z - staciakampio krastines
+a = xy
+b = yz
+c = xz
+
+S = a + b + c
+
+V = xyz
+V^2 = (xyz)^2
+V^2 = (abc) / 8
+
+Jei a + b + c = 1
+a = 1 - b - c
+V^2 = ((1 - b - c)bc) / 8
+-V^2 = -((1 - b - c)bc) / 8
+
+isvestine pagal b:
+-c(-2b-c+1)/8
+(0 0) => 0
+(1 1) => 1/4
+(0.3 0) => 0
+
+isvestine pagal c:
+-b(-2c-b+1)/8
+(0 0) => 0
+(1 1) => 1/4
+(0.3 0) => -0.2625
