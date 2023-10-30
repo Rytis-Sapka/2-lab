@@ -25,14 +25,17 @@ def originalFunction(x, y):
 steps, result = gradient_descent((0, 0), gradientX, gradientY, 10)
 print(len(steps))
 print(result)
+print(originalFunction(result[0], result[1]))
 show_graph(steps)
 
 steps, result = fastest_descent((0, 0), gradientX, gradientY, originalFunction)
 print(len(steps))
 print(result)
+print(originalFunction(result[0], result[1]))
 show_graph(steps)
 
 steps, result = nelder_mead((0, 0), originalFunction)
 print(len(steps))
 print(result)
+print(originalFunction(result[0], result[1]))
 show_graph(steps)
